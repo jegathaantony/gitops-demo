@@ -4,5 +4,8 @@
   },
   {
     "name": "echo-api"
+  },
+  {
+    "name": "swagger-petstore"
   }
 ]
