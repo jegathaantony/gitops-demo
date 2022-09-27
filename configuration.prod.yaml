@@ -1,10 +1,10 @@
 apimServiceName: gitopsprd-rg
 namedValues:
   - name: environment
-    displayName: apiopsprod
+    displayName: apiprod
     value: prod
-  - name: apiopsvalue
-    displayName: apippsvalue
+  - name: apivalue
+    displayName: apivalue
     keyVault:
       identityClientId: Set if Key Vault authentication happens through a user-assigned managed identity
       secretIdentifier: Url for key vault secret (can be versioned if needed).
