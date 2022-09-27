@@ -23,7 +23,7 @@ diagnostics:
      loggerId: "/subscriptions/28296629-48b9-4b8c-81f1-35c3ca4fed0a/resourceGroups/gitopsprd-rg/providers/microsoft.insights/components/apim-prod-insights"
        
 apis:
-  - name: " 'Demo Conference API' "
+  - name: "  [ 'Demo Conference API' , ] "
     diagnostics:
       - name: applicationinsights
         verbosity: Error
