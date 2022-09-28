@@ -6,6 +6,6 @@
     "name": "echo-api"
   },
   {
-    "name": "swagger"
+    "name": "swagger-petstore"
   }
 ]
