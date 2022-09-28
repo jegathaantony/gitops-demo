@@ -1,10 +1,10 @@
 apimServiceName: gitopsprd-rg
 namedValues:
   - name: environment
-    displayName: apiprod
+    displayName: apiopprod
     value: prod
   - name: apivalue
-    displayName: apivalue
+    displayName: apiopvalue
     keyVault:
       identityClientId: Set if Key Vault authentication happens through a user-assigned managed identity
       secretIdentifier: Url for key vault secret (can be versioned if needed).
@@ -23,7 +23,7 @@ diagnostics:
      loggerId: "/subscriptions/28296629-48b9-4b8c-81f1-35c3ca4fed0a/resourceGroups/gitopsprd-rg/providers/microsoft.insights/components/apim-prod-insights"
        
 apis:
-  - name: "  [ 'Demo Conference API' , 'Swagger Petstore' ] "
+  - name: "  [ 'Demo Conference API' , 'Swagger' ] "
     diagnostics:
       - name: applicationinsights
         verbosity: Error
